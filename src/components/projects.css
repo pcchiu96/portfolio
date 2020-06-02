@@ -1,0 +1,12 @@
+.projects-wrapper {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    color: #777;
+
+    /* margin-top: -14em; */
+}
+
+.projects {
+    display: grid;
+}

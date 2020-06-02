@@ -1,15 +1,19 @@
 import React from "react";
-import Nav from "./nav.js";
-import Introduction from "./introduction";
-import "./styles.less";
+import { Nav, Introduction, Projects } from "./components";
+import "./style.css";
 
 export default function App() {
     return (
-        <div className='App'>
-            <header id='header' className='alt'>
-                <Nav />
-                <Introduction />
-            </header>
+        <div className='background'>
+            <div className='header-wrapper'>
+                <header>
+                    <Nav />
+                    <Introduction />
+                </header>
+            </div>
+            <div className='my-work'>
+                <Projects />
+            </div>
         </div>
     );
 }
