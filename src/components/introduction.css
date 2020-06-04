@@ -1,5 +1,5 @@
 .introduction {
-    padding: 20px;
+    padding: 3em 0 6em 0;
 }
 
 .b-wrapper {
@@ -13,4 +13,11 @@
     padding: 15px 20px;
     border-radius: 5px;
     color: white;
+    transition: 0.3s;
+    font-size: 1em;
+}
+
+.b-my-work:hover {
+    color: black;
+    background-color: white;
 }
