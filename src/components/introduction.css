@@ -20,4 +20,5 @@
 .b-my-work:hover {
     color: black;
     background-color: white;
+    cursor: pointer;
 }

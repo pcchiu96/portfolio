@@ -21,7 +21,10 @@
 .projects section {
     padding: 4em;
     text-align: center;
-    /* border-top: solid 1px #e5e5e5; */
+}
+
+.projects section:nth-child(n + 2) {
+    border-top: solid 2px #e5e5e5;
 }
 
 .projects a {
