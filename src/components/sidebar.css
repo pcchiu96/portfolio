@@ -1,0 +1,22 @@
+.sidebar {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background-color: black;
+    opacity: 20%;
+    /* border: 10px white solid; */
+
+    transition: 0.5s;
+
+    display: hidden;
+    width: 0;
+}
+
+.show-sidebar {
+    display: block;
+    width: 300px;
+
+    transition: 0.5s;
+    background-color: red;
+}
