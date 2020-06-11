@@ -5,6 +5,12 @@ import "./nav.css";
 export default function Nav() {
     const [sidebar, setSideBar] = useState(false);
 
+    let hamgurgerIcon = sidebar ? "fa fa-times" : "fa fa-bars";
+
+    function showSideBarToggle() {
+        setSideBar(!sidebar);
+    }
+
     return (
         <nav id='nav'>
             <ul>
@@ -18,15 +24,11 @@ export default function Nav() {
                     </a>
                 </li>
                 <li className='nav-hamburger'>
-                    <i className='fa fa-bars' onClick={showSidebar}></i>
+                    <i className={hamgurgerIcon} onClick={showSideBarToggle}></i>
                 </li>
             </ul>
 
             <Sidebar show={sidebar} />
         </nav>
     );
-
-    function showSidebar() {
-        setSideBar(!sidebar);
-    }
 }
