@@ -6,12 +6,16 @@
     visibility: hidden;
     opacity: 0;
 
+    transform: translateY(0px);
+
     /*visibility has 0s transition speed but 0.5s delay*/
     /*opacity has 0.5s transition speed*/
-    transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+    transition: visibility 0s linear 0.3s, opacity 0.3s linear, transform 0.3s linear;
 }
 
 .sidebar.show-sidebar {
+    transform: translateY(10px);
+
     visibility: visible;
     opacity: 1;
     transition-delay: 0s;

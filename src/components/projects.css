@@ -10,9 +10,11 @@
 }
 
 .projects {
+    display: grid;
+
     position: relative;
     padding: 2em;
-    display: grid;
+
     border-radius: 6px;
     box-shadow: 0 2px 0 0 #e5e5e5;
     background-color: #fff;
@@ -44,4 +46,24 @@
 
 .project-code-icon {
     font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .projects {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .projects section:nth-child(n + 2) {
+        border-top: none;
+    }
+    .projects section:nth-child(odd) {
+        border-bottom: solid 2px #e5e5e5;
+        border-right: solid 2px #e5e5e5;
+    }
+    .projects section:nth-child(even) {
+        border-bottom: solid 2px #e5e5e5;
+    }
+    .projects section:last-child {
+        border-bottom: none;
+    }
 }
