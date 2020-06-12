@@ -2,7 +2,7 @@
 }
 
 .header-wrapper {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../src/images/background.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../src/images/background.jpg");
 
     /* Background image is centered vertically and horizontally at all times */
     background-position: center center;

@@ -1,6 +1,6 @@
 import React from "react";
-import { Nav, Introduction, Projects } from "./components";
-import "./style.css";
+import { Nav, Introduction, Projects } from "./components/All_Files";
+import "./css/App.css";
 
 export default function App() {
     return (

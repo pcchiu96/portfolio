@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import Sidebar from "./sidebar";
-import "./nav.css";
+import Sidebar from "./Sidebar";
+import "../css/Nav.css";
 
 export default function Nav() {
     const [sidebar, setSideBar] = useState(false);
 
-    let hamgurgerIcon = sidebar ? "fa fa-times" : "fa fa-bars";
+    let hamburgerIcon = sidebar ? "fa fa-times" : "fa fa-bars";
 
     function showSideBarToggle() {
         setSideBar(!sidebar);
@@ -24,7 +24,7 @@ export default function Nav() {
                     </a>
                 </li>
                 <li className='nav-hamburger'>
-                    <i className={hamgurgerIcon} onClick={showSideBarToggle}></i>
+                    <i className={hamburgerIcon} onClick={showSideBarToggle}></i>
                 </li>
             </ul>
 
