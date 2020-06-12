@@ -7,8 +7,21 @@ export default function Sidebar({ show }) {
 
     return (
         <div className={sidebarClass}>
-            <a href=''>Skills</a>
-            <a href=''>Education</a>
+            <a href=''>
+                <i className='fa fa-address-card' aria-hidden='true'></i> Resume
+            </a>
+            <a href=''>
+                <i className='fa fa-check-square' aria-hidden='true'></i> Skills
+            </a>
+            <a href=''>
+                <i className='fa fa-certificate' aria-hidden='true'></i> Education
+            </a>
+            <a href=''>
+                <i className='fa fa-user-circle' aria-hidden='true'></i> About
+            </a>
+            <a href=''>
+                <i className='fa fa-phone-square' aria-hidden='true'></i> Contact
+            </a>
         </div>
     );
 }

@@ -5,7 +5,7 @@
 .projects-wrapper {
     width: 80%;
     margin: 0 auto;
-    padding: 3em;
+    padding: 3em 0 6em 0;
     color: #646464;
 }
 
@@ -16,7 +16,7 @@
     padding: 2em;
 
     border-radius: 6px;
-    box-shadow: 0 2px 0 0 #e5e5e5;
+    box-shadow: 0 3px 3px 0 #c9c9c9;
     background-color: #fff;
 }
 
@@ -29,25 +29,35 @@
     border-top: solid 2px #e5e5e5;
 }
 
-.projects a {
-    color: #646464;
-    border-bottom: dotted 1px;
-}
-
 .project-icon {
     font-size: 2.5em;
-    background-color: #e5e5e5;
-    border-radius: 100%;
+    /* forms a square */
     width: 3em;
     height: 3em;
+    /* make background a circle*/
+    background-color: #e5e5e5;
+    border-radius: 100%;
+    /* pushes the icon down to middle */
     line-height: 3em;
     margin: 0 0 1em 0;
 }
 
-.project-code-icon {
-    font-weight: bold;
+.b-view {
+    background-color: transparent;
+    border: 2px black solid;
+    padding: 10px 15px;
+    margin: 4px;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: 1em;
 }
 
+.b-view:hover {
+    background-color: #242a2e;
+    color: white;
+}
+
+/* When stretched above phone and tablet devices */
 @media (min-width: 768px) {
     .projects {
         grid-template-columns: 1fr 1fr;
@@ -57,8 +67,8 @@
         border-top: none;
     }
     .projects section:nth-child(odd) {
-        border-bottom: solid 2px #e5e5e5;
         border-right: solid 2px #e5e5e5;
+        border-bottom: solid 2px #e5e5e5;
     }
     .projects section:nth-child(even) {
         border-bottom: solid 2px #e5e5e5;
