@@ -9,6 +9,11 @@ export default function Projects() {
                     <section>
                         <i className='project-icon fa fa-gamepad' aria-hidden='true'></i>
                         <h3>Discord Werewolf Bot</h3>
+                        <a href=''>
+                            <button className='b-view' disabled>
+                                View Project
+                            </button>
+                        </a>
                         <a href='https://github.com/pcchiu96/Werewolf-Bot'>
                             <button className='b-view'>View Code</button>
                         </a>
@@ -18,10 +23,10 @@ export default function Projects() {
                     <section>
                         <i className='project-icon fa fa-circle-o' aria-hidden='true'></i>
                         <h3>Connect 4</h3>
-                        <a href=''>
+                        <a href='https://pcchiu96.github.io/connect-4/'>
                             <button className='b-view'>View Project</button>
                         </a>
-                        <a href='https://github.com/pcchiu96/Connect_4'>
+                        <a href='https://github.com/pcchiu96/connect-4'>
                             <button className='b-view'>View Code</button>
                         </a>
                         <p>A 2-players board game that I built to practice coding in ReactJS.</p>
@@ -40,10 +45,15 @@ export default function Projects() {
                     </section>
 
                     <section>
-                        <i className='project-icon fa fa-wrench' aria-hidden='true'></i>
+                        <i className='project-icon fa fa-car' aria-hidden='true'></i>
                         <h3>Tiger Applications LLC</h3>
                         <a href='https://www.tigerapplicationsllc.com/index.php?page=index'>
                             <button className='b-view'>View Project</button>
+                        </a>
+                        <a href=''>
+                            <button className='b-view' disabled>
+                                View Code
+                            </button>
                         </a>
                         <p>A work in progress website I designed and built for Tiger Applications LLC.</p>
                     </section>

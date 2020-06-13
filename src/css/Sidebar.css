@@ -1,7 +1,12 @@
 .sidebar {
     padding: 10px;
-    text-align: right;
-    width: 100%;
+    /* text-align: right; */
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    /* width: 100%; */
     overflow-y: hidden;
     visibility: hidden;
     opacity: 0;
@@ -36,5 +41,7 @@
     background-color: #8a8a8a;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1068px) {
+    .sidebar {
+    }
 }
