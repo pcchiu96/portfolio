@@ -21,7 +21,7 @@
 }
 
 .projects section {
-    padding: 4em;
+    padding: 3em 0;
     text-align: center;
 }
 
@@ -68,6 +68,11 @@
 }
 
 /* When stretched above phone and tablet devices */
+
+/* elements that changes width
+projects display changes to 2 columns
+projects section increase in padding
+*/
 @media (min-width: 768px) {
     .projects {
         grid-template-columns: 1fr 1fr;
@@ -85,5 +90,9 @@
     }
     .projects section:last-child {
         border-bottom: none;
+    }
+
+    .projects section {
+        padding: 4em;
     }
 }

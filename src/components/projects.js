@@ -9,11 +9,11 @@ export default function Projects() {
                     <section>
                         <i className='project-icon fa fa-gamepad' aria-hidden='true'></i>
                         <h3>Discord Werewolf Bot</h3>
-                        <a href=''>
+                        {/* <a href=''>
                             <button className='b-view' disabled>
                                 View Project
                             </button>
-                        </a>
+                        </a> */}
                         <a href='https://github.com/pcchiu96/Werewolf-Bot'>
                             <button className='b-view'>View Code</button>
                         </a>
@@ -50,11 +50,11 @@ export default function Projects() {
                         <a href='https://www.tigerapplicationsllc.com/index.php?page=index'>
                             <button className='b-view'>View Project</button>
                         </a>
-                        <a href=''>
+                        {/* <a href=''>
                             <button className='b-view' disabled>
                                 View Code
                             </button>
-                        </a>
+                        </a> */}
                         <p>A work in progress website I designed and built for Tiger Applications LLC.</p>
                     </section>
 

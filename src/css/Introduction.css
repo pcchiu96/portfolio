@@ -1,7 +1,14 @@
+.introduction-wrapper {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 4em;
+}
+
 .introduction {
     width: 80%;
     margin: auto;
     padding: 2em 0;
+    color: white;
 }
 
 .intro-sentence {
@@ -11,6 +18,16 @@
 .view-my-work {
     text-align: center;
     padding: 15px 0;
-    color: white;
     font-size: 1em;
+}
+
+/* When stretched above phone and tablet devices */
+
+/* elements that changes width
+introduction-wrapper changes from 90% to 80% width
+*/
+@media (min-width: 768px) {
+    .introduction-wrapper {
+        width: 80%;
+    }
 }
