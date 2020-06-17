@@ -9,17 +9,17 @@ export default function App() {
             <Router>
                 <Nav />
                 <Switch>
-                    <Route exact path='/'>
+                    <Route path='/portfolio'>
                         <Introduction />
                         <Projects />
                     </Route>
-                    <Route path='/Resume'>
+                    <Route path='/resume'>
                         <Resume />
                     </Route>
-                    <Route path='/About'>
+                    <Route path='/about'>
                         <About />
                     </Route>
-                    <Route path='/Contact'>
+                    <Route path='/contact'>
                         <Contact />
                     </Route>
                 </Switch>

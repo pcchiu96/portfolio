@@ -1,8 +1,7 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Sidebar from "./Sidebar";
 import "../css/Nav.css";
-import resume from "../resume.pdf";
-import { Link } from "react-router-dom";
 
 export default function Nav() {
     const [sidebar, setSideBar] = useState(false);
@@ -28,16 +27,16 @@ export default function Nav() {
                     </li>
 
                     <li className='nav-links'>
-                        <Link to='/Resume'>Resume</Link>
-                        <Link to='/About'>About</Link>
-                        <Link to='/Contact'>Contact</Link>
+                        <Link to='/resume'>Resume</Link>
+                        <Link to='/about'>About</Link>
+                        <Link to='/contact'>Contact</Link>
                     </li>
                     <li className='nav-hamburger'>
                         <i className={hamburgerIcon} onClick={showSideBarToggle}></i>
                     </li>
                 </ul>
 
-                <Sidebar show={sidebar} resume={resume} />
+                <Sidebar show={sidebar} />
             </nav>
         </header>
     );

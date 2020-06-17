@@ -9,11 +9,6 @@ export default function Projects() {
                     <section>
                         <i className='project-icon fa fa-gamepad' aria-hidden='true'></i>
                         <h3>Discord Werewolf Bot</h3>
-                        {/* <a href=''>
-                            <button className='b-view' disabled>
-                                View Project
-                            </button>
-                        </a> */}
                         <a href='https://github.com/pcchiu96/Werewolf-Bot'>
                             <button className='b-view'>View Code</button>
                         </a>
@@ -23,7 +18,7 @@ export default function Projects() {
                     <section>
                         <i className='project-icon fa fa-circle-o' aria-hidden='true'></i>
                         <h3>Connect 4</h3>
-                        <a href='https://pcchiu96.github.io/connect-4/'>
+                        <a href='https://pcchiu96.github.io/connect-4'>
                             <button className='b-view'>View Project</button>
                         </a>
                         <a href='https://github.com/pcchiu96/connect-4'>
@@ -35,10 +30,10 @@ export default function Projects() {
                     <section>
                         <i className='project-icon fa fa-unlock-alt' aria-hidden='true'></i>
                         <h3>Unlock Code</h3>
-                        {/* <a href=''>
+                        <a href='https://pcchiu96.github.io/unlock-code'>
                             <button className='b-view'>View Project</button>
-                        </a> */}
-                        <a href='https://github.com/pcchiu96/Unlock_Code'>
+                        </a>
+                        <a href='https://github.com/pcchiu96/unlock-code'>
                             <button className='b-view'>View Code</button>
                         </a>
                         <p>This is just a fun little project I made to see if I can replicate what Snowden said about passwords under 8 characters can be solved under a second.</p>
