@@ -58,6 +58,10 @@ header {
     border-radius: 8px;
 }
 
+.nav-link {
+    color: white;
+}
+
 .nav-links a:hover {
     color: white;
 }

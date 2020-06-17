@@ -6,7 +6,7 @@ export default function Introduction() {
         <div className='introduction-wrapper'>
             <div className='introduction'>
                 <div className='intro-sentence'>
-                    <h1>I'm a passionate software developer that likes to make cool apps.</h1>
+                    <h1>I'm a passionate software developer that likes to make impactful apps.</h1>
                     <p>Full Stack Developer in Tiger Applications LLC</p>
                 </div>
 

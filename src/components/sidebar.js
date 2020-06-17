@@ -1,13 +1,13 @@
 import React from "react";
 import "../css/Sidebar.css";
 
-export default function Sidebar({ show }) {
+export default function Sidebar({ show, resume }) {
     let sidebarClass = "sidebar";
     if (show) sidebarClass += " show-sidebar";
 
     return (
         <div className={sidebarClass}>
-            <a href=''>
+            <a href={resume}>
                 <i className='fa fa-address-card' aria-hidden='true'></i> Resume
             </a>
             <a href=''>

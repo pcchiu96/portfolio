@@ -35,9 +35,9 @@ export default function Projects() {
                     <section>
                         <i className='project-icon fa fa-unlock-alt' aria-hidden='true'></i>
                         <h3>Unlock Code</h3>
-                        <a href=''>
+                        {/* <a href=''>
                             <button className='b-view'>View Project</button>
-                        </a>
+                        </a> */}
                         <a href='https://github.com/pcchiu96/Unlock_Code'>
                             <button className='b-view'>View Code</button>
                         </a>
