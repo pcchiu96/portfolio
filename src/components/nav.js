@@ -27,14 +27,14 @@ export default function Nav() {
                         </a>
                     </li>
 
-                    {/* <li className='nav-links'>
+                    <li className='nav-links'>
                         <Link to='/Resume'>Resume</Link>
                         <Link to='/About'>About</Link>
                         <Link to='/Contact'>Contact</Link>
                     </li>
                     <li className='nav-hamburger'>
                         <i className={hamburgerIcon} onClick={showSideBarToggle}></i>
-                    </li> */}
+                    </li>
                 </ul>
 
                 <Sidebar show={sidebar} resume={resume} />
