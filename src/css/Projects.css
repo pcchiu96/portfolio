@@ -3,7 +3,7 @@
 }
 
 .projects-wrapper {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding: 3em 0 6em 0;
     color: #646464;
@@ -11,10 +11,8 @@
 
 .projects {
     display: grid;
-
     position: relative;
-    padding: 2em;
-
+    padding: 1em;
     border-radius: 6px;
     box-shadow: 0 3px 3px 0 #c9c9c9;
     background-color: #fff;
@@ -46,11 +44,12 @@
 .b-view {
     background-color: transparent;
     border: 2px black solid;
-    padding: 10px 15px;
+    padding: 10px 0;
     margin: 4px;
     border-radius: 5px;
     transition: 0.3s;
     font-size: 1em;
+    width: 10em;
 }
 
 .b-view:hover {
@@ -68,14 +67,14 @@
 }
 
 /* When stretched above phone and tablet devices */
-
-/* elements that changes width
-projects display changes to 2 columns
-projects section increase in padding
-*/
 @media (min-width: 768px) {
+    .projects-wrapper {
+        width: 80%;
+    }
+
     .projects {
         grid-template-columns: 1fr 1fr;
+        padding: 2em;
     }
 
     .projects section:nth-child(n + 2) {

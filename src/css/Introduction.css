@@ -22,12 +22,8 @@
 }
 
 /* When stretched above phone and tablet devices */
-
-/* elements that changes width
-introduction-wrapper changes from 90% to 80% width
-*/
 @media (min-width: 768px) {
-    .introduction-wrapper {
+    .introduction {
         width: 80%;
     }
 }
