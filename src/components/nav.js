@@ -27,15 +27,8 @@ export default function Nav() {
                     </li>
 
                     <li className='nav-links'>
-                        <Link to='/resume'>
-                            <i className='fa fa-address-card' aria-hidden='true'></i> Resume
-                        </Link>
-                        <Link to='/about'>
-                            <i className='fa fa-info-circle' aria-hidden='true'></i> About
-                        </Link>
-                        <Link to='/contact'>
-                            <i className='fa fa-phone-square' aria-hidden='true'></i> Contact
-                        </Link>
+                        <a href='https://drive.google.com/file/d/1Rv0gmkG2wpFoOSRRxQMaKs0T6lAgkUkd/view?usp=sharing'>Resume</a>
+                        <Link to='/about'>About</Link>
                     </li>
                     <li className='nav-hamburger'>
                         <i className={hamburgerIcon} onClick={showSideBarToggle}></i>

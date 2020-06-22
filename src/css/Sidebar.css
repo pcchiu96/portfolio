@@ -31,9 +31,23 @@
     color: white;
     vertical-align: baseline;
     transition: 0.3s;
-    border-radius: 8px;
 }
 
-.show-sidebar a:hover {
-    background-color: #8a8a8a;
+.sidebar a:after {
+    content: "";
+    display: block;
+    border-bottom: solid 3px white;
+    transform: scaleY(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.sidebar a:hover:after {
+    transform: scaleY(1);
+}
+
+/* When stretched above phone and tablet devices */
+@media (min-width: 768px) {
+    .sidebar {
+        display: none;
+    }
 }

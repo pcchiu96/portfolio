@@ -10,7 +10,6 @@ export default function Sidebar({ show }) {
         <div className={sidebarClass}>
             <Link to='/resume'>Resume</Link>
             <Link to='/about'>About</Link>
-            <Link to='/contact'>Contact</Link>
         </div>
     );
 }
