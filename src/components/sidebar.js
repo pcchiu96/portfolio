@@ -8,7 +8,7 @@ export default function Sidebar({ show }) {
 
     return (
         <div className={sidebarClass}>
-            <Link to='/resume'>Resume</Link>
+            <a href='https://drive.google.com/file/d/1Rv0gmkG2wpFoOSRRxQMaKs0T6lAgkUkd/view?usp=sharing'>Resume</a>
             <Link to='/about'>About</Link>
         </div>
     );
