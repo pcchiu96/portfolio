@@ -13,6 +13,10 @@ export default function Projects() {
                             <button className='b-view'>View Code</button>
                         </a>
                         <p>A discord werewolf game that's similar to mafia but with a fun twist.</p>
+                        <p class='language-icons'>
+                            <i class='devicon-nodejs-plain colored' title='NodeJS'></i>
+                            <i class='devicon-javascript-plain colored' title='JavaScript'></i>
+                        </p>
                     </section>
 
                     <section>
@@ -25,6 +29,12 @@ export default function Projects() {
                             <button className='b-view'>View Code</button>
                         </a>
                         <p>A 2-players board game that I built to practice coding in ReactJS.</p>
+                        <p class='language-icons'>
+                            <i class='devicon-react-original colored' title='React'></i>
+                            <i class='devicon-javascript-plain colored' title='JavaScript'></i>
+                            <i class='devicon-html5-plain colored' title='HTML5'></i>
+                            <i class='devicon-css3-plain colored' title='CSS3'></i>
+                        </p>
                     </section>
 
                     <section>
@@ -37,6 +47,11 @@ export default function Projects() {
                             <button className='b-view'>View Code</button>
                         </a>
                         <p>This is just a fun little project I made to see if I can replicate what Snowden said about passwords under 8 characters can be solved under a second.</p>
+                        <p class='language-icons'>
+                            <i class='devicon-javascript-plain colored' title='JavaScript'></i>
+                            <i class='devicon-html5-plain colored' title='HTML5'></i>
+                            <i class='devicon-css3-plain colored' title='CSS3'></i>
+                        </p>
                     </section>
 
                     <section>
@@ -51,12 +66,26 @@ export default function Projects() {
                             </button>
                         </a> */}
                         <p>A work in progress website I designed and built for Tiger Applications LLC.</p>
+                        <p class='language-icons'>
+                            <i class='devicon-php-plain colored' title='PHP'></i>
+                            <i class='devicon-javascript-plain colored' title='JavaScript'></i>
+                            <i class='devicon-html5-plain colored' title='HTML5'></i>
+                            <i class='devicon-less-plain-wordmark colored' title='LESS'></i>
+                            <i class='devicon-css3-plain colored' title='CSS3'></i>
+                        </p>
                     </section>
 
                     <section>
                         <i className='project-icon fa fa-wrench' aria-hidden='true'></i>
                         <h3>StrataPLBm</h3>
                         <p>A client-server application that provide simple management of condo/apartment requests from residents.</p>
+                        <p class='language-icons'>
+                            <i class='devicon-php-plain colored' title='PHP'></i>
+                            <i class='devicon-javascript-plain colored' title='JavaScript'></i>
+                            <i class='devicon-html5-plain colored' title='HTML5'></i>
+                            <i class='devicon-less-plain-wordmark colored' title='LESS'></i>
+                            <i class='devicon-css3-plain colored' title='CSS3'></i>
+                        </p>
                     </section>
                 </div>
             </div>

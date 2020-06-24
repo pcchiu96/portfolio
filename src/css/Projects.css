@@ -19,7 +19,7 @@
 }
 
 .projects section {
-    padding: 3em 0;
+    padding: 3em 2em 2em 2em;
     text-align: center;
 }
 
@@ -66,6 +66,10 @@
     background-color: transparent;
 }
 
+.language-icons {
+    font-size: 1.5em;
+}
+
 /* When stretched above phone and tablet devices */
 @media (min-width: 768px) {
     .projects-wrapper {
@@ -92,6 +96,6 @@
     }
 
     .projects section {
-        padding: 4em;
+        padding: 4em 3em 2em 3em;
     }
 }
