@@ -7,19 +7,6 @@ export default function Projects() {
             <div className='projects-wrapper'>
                 <div className='projects'>
                     <section>
-                        <i className='project-icon fa fa-gamepad' aria-hidden='true'></i>
-                        <h3>Discord Werewolf Bot</h3>
-                        <a href='https://github.com/pcchiu96/Werewolf-Bot'>
-                            <button className='b-view'>View Code</button>
-                        </a>
-                        <p>A discord werewolf game that's similar to mafia but with a fun twist.</p>
-                        <p class='language-icons'>
-                            <i class='devicon-nodejs-plain colored' title='NodeJS'></i>
-                            <i class='devicon-javascript-plain colored' title='JavaScript'></i>
-                        </p>
-                    </section>
-
-                    <section>
                         <i className='project-icon fa fa-circle-o' aria-hidden='true'></i>
                         <h3>Connect 4</h3>
                         <a href='https://pcchiu96.github.io/connect-4'>
@@ -34,6 +21,32 @@ export default function Projects() {
                             <i class='devicon-javascript-plain colored' title='JavaScript'></i>
                             <i class='devicon-html5-plain colored' title='HTML5'></i>
                             <i class='devicon-css3-plain colored' title='CSS3'></i>
+                        </p>
+                    </section>
+
+                    <section>
+                        <i className='project-icon fa fa-gamepad' aria-hidden='true'></i>
+                        <h3>Discord Werewolf Bot</h3>
+                        <a href='https://github.com/pcchiu96/discord-werewolf-bot'>
+                            <button className='b-view'>View Code</button>
+                        </a>
+                        <p>A discord werewolf game that's similar to mafia but with a fun twist.</p>
+                        <p class='language-icons'>
+                            <i class='devicon-nodejs-plain colored' title='NodeJS'></i>
+                            <i class='devicon-javascript-plain colored' title='JavaScript'></i>
+                        </p>
+                    </section>
+
+                    <section>
+                        <i className='project-icon fa fa-smile-o' aria-hidden='true'></i>
+                        <h3>Discord Emoji Tracker</h3>
+                        <a href='https://github.com/pcchiu96/discord-emoji-tracker'>
+                            <button className='b-view'>View Code</button>
+                        </a>
+                        <p>A discord emoji tracker that my discord use weekly to find the popularity of each custom emoji</p>
+                        <p class='language-icons'>
+                            <i class='devicon-nodejs-plain colored' title='NodeJS'></i>
+                            <i class='devicon-javascript-plain colored' title='JavaScript'></i>
                         </p>
                     </section>
 
@@ -60,11 +73,6 @@ export default function Projects() {
                         <a href='https://www.tigerapplicationsllc.com/index.php?page=index'>
                             <button className='b-view'>View Project</button>
                         </a>
-                        {/* <a href=''>
-                            <button className='b-view' disabled>
-                                View Code
-                            </button>
-                        </a> */}
                         <p>A work in progress website I designed and built for Tiger Applications LLC.</p>
                         <p class='language-icons'>
                             <i class='devicon-php-plain colored' title='PHP'></i>
@@ -85,6 +93,22 @@ export default function Projects() {
                             <i class='devicon-html5-plain colored' title='HTML5'></i>
                             <i class='devicon-less-plain-wordmark colored' title='LESS'></i>
                             <i class='devicon-css3-plain colored' title='CSS3'></i>
+                        </p>
+                    </section>
+
+                    <section>
+                        <i className='project-icon fa fa-user' aria-hidden='true'></i>
+                        <h3>Portfolio</h3>
+                        <p>You're looking at it!</p>
+                        <a href='https://github.com/pcchiu96/portfolio'>
+                            <button className='b-view'>View Code</button>
+                        </a>
+                        <p class='language-icons'>
+                            <i class='devicon-react-original colored' title='React'></i>
+                            <i class='devicon-javascript-plain colored' title='JavaScript'></i>
+                            <i class='devicon-html5-plain colored' title='HTML5'></i>
+                            <i class='devicon-css3-plain colored' title='CSS3'></i>
+                            <i class='devicon-github-plain colored' title='GitHub'></i>
                         </p>
                     </section>
                 </div>

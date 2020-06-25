@@ -50,6 +50,7 @@
     transition: 0.3s;
     font-size: 1em;
     width: 10em;
+    cursor: pointer;
 }
 
 .b-view:hover {
