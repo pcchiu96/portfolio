@@ -7,6 +7,7 @@ export default function Nav() {
     const [sidebar, setSideBar] = useState(false);
 
     let hamburgerIcon = sidebar ? "fa fa-times" : "fa fa-bars";
+    let resumeLink = "https://drive.google.com/file/d/1pqQzxrdY_mMUWJ-VDjybR34sq0ZfAJYG/view?usp=sharing";
 
     function showSideBarToggle() {
         setSideBar(!sidebar);
@@ -14,7 +15,7 @@ export default function Nav() {
 
     return (
         <header>
-            <nav id='nav'>
+            <nav>
                 <ul>
                     <li className='nav-title'>
                         <a href='https://pcchiu96.github.io/portfolio'>Paul Chiu</a>
@@ -27,7 +28,7 @@ export default function Nav() {
                     </li>
 
                     <li className='nav-links'>
-                        <a href='https://drive.google.com/file/d/1Rv0gmkG2wpFoOSRRxQMaKs0T6lAgkUkd/view?usp=sharing'>Resume</a>
+                        <a href={resumeLink}>Resume</a>
                         <Link to='/about'>About</Link>
                     </li>
                     <li className='nav-hamburger'>
@@ -35,7 +36,7 @@ export default function Nav() {
                     </li>
                 </ul>
 
-                <Sidebar show={sidebar} />
+                <Sidebar show={sidebar} resume={resumeLink} />
             </nav>
         </header>
     );
