@@ -7,7 +7,7 @@ export default function Nav() {
     const [sidebar, setSideBar] = useState(false);
 
     let hamburgerIcon = sidebar ? "fa fa-times" : "fa fa-bars";
-    let resumeLink = "https://drive.google.com/file/d/1pqQzxrdY_mMUWJ-VDjybR34sq0ZfAJYG/view?usp=sharing";
+    let resumeLink = "https://drive.google.com/file/d/1MKovPQzxGhElOn1RxGFN96l6jGfK9hA9/view?usp=sharing";
 
     function showSideBarToggle() {
         setSideBar(!sidebar);

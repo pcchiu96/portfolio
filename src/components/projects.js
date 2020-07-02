@@ -8,6 +8,23 @@ export default function Projects() {
                 <div className='projects'>
                     <section>
                         <i className='project-icon fa fa-circle-o' aria-hidden='true'></i>
+                        <h3>Fruit Melody</h3>
+                        <a href='https://pcchiu96.github.io/fruitmelody'>
+                            <button className='b-view'>View Project</button>
+                        </a>
+                        <a href='https://github.com/pcchiu96/fruitmelody'>
+                            <button className='b-view'>View Code</button>
+                        </a>
+                        <p>A website I designed for my artist friend Fruit Melody.</p>
+                        <p class='language-icons'>
+                            <i class='devicon-html5-plain colored' title='HTML5'></i>
+                            <i class='devicon-css3-plain colored' title='CSS3'></i>
+                            <i class='devicon-javascript-plain colored' title='JavaScript'></i>
+                        </p>
+                    </section>
+
+                    <section>
+                        <i className='project-icon fa fa-circle-o' aria-hidden='true'></i>
                         <h3>Connect 4</h3>
                         <a href='https://pcchiu96.github.io/connect-4'>
                             <button className='b-view'>View Project</button>
@@ -15,7 +32,7 @@ export default function Projects() {
                         <a href='https://github.com/pcchiu96/connect-4'>
                             <button className='b-view'>View Code</button>
                         </a>
-                        <p>A 2-players board game that I built to practice coding in ReactJS.</p>
+                        <p>A 2-player board game that I built to practice coding in ReactJS.</p>
                         <p class='language-icons'>
                             <i class='devicon-react-original colored' title='React'></i>
                             <i class='devicon-javascript-plain colored' title='JavaScript'></i>
@@ -30,7 +47,7 @@ export default function Projects() {
                         <a href='https://github.com/pcchiu96/discord-werewolf-bot'>
                             <button className='b-view'>View Code</button>
                         </a>
-                        <p>A discord werewolf game that's similar to mafia but with a fun twist.</p>
+                        <p>A discord werewolf game that is similar to mafia but with a fun twist.</p>
                         <p class='language-icons'>
                             <i class='devicon-nodejs-plain colored' title='NodeJS'></i>
                             <i class='devicon-javascript-plain colored' title='JavaScript'></i>
@@ -43,7 +60,7 @@ export default function Projects() {
                         <a href='https://github.com/pcchiu96/discord-emoji-tracker'>
                             <button className='b-view'>View Code</button>
                         </a>
-                        <p>A discord emoji tracker that my discord use weekly to find the popularity of each custom emoji</p>
+                        <p>A discord emoji tracker that my discord group uses weekly to find the popularity of each custom emoji.</p>
                         <p class='language-icons'>
                             <i class='devicon-nodejs-plain colored' title='NodeJS'></i>
                             <i class='devicon-javascript-plain colored' title='JavaScript'></i>
@@ -59,7 +76,10 @@ export default function Projects() {
                         <a href='https://github.com/pcchiu96/unlock-code'>
                             <button className='b-view'>View Code</button>
                         </a>
-                        <p>This is just a fun little project I made to see if I can replicate what Snowden said about passwords under 8 characters can be solved under a second.</p>
+                        <p>
+                            This is just a fun little project I made to see if I can replicate what Snowden said about passwords under 8 characters can be solved under a second but
+                            with numbers.
+                        </p>
                         <p class='language-icons'>
                             <i class='devicon-javascript-plain colored' title='JavaScript'></i>
                             <i class='devicon-html5-plain colored' title='HTML5'></i>
@@ -82,7 +102,7 @@ export default function Projects() {
                             <i class='devicon-css3-plain colored' title='CSS3'></i>
                         </p>
                     </section>
-
+                    {/* 
                     <section>
                         <i className='project-icon fa fa-wrench' aria-hidden='true'></i>
                         <h3>StrataPLBm</h3>
@@ -94,12 +114,12 @@ export default function Projects() {
                             <i class='devicon-less-plain-wordmark colored' title='LESS'></i>
                             <i class='devicon-css3-plain colored' title='CSS3'></i>
                         </p>
-                    </section>
+                    </section> */}
 
                     <section>
                         <i className='project-icon fa fa-user' aria-hidden='true'></i>
                         <h3>Portfolio</h3>
-                        <p>You're looking at it!</p>
+                        <p>You are looking at it!</p>
                         <a href='https://github.com/pcchiu96/portfolio'>
                             <button className='b-view'>View Code</button>
                         </a>

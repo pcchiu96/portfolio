@@ -6,9 +6,9 @@ export default function About() {
         <div class='about-wrapper'>
             <div class='about'>
                 <section>
-                    <h2>A little about me</h2>
+                    <h2>A little bit about me</h2>
                     <p>
-                        I'm a recent graduate that's currently working as a Full Stack Developer at Tiger Applications LLC. It's where I constantly thrive to hone my abilities to
+                        I am a recent graduate that is currently working as a Full Stack Developer at Tiger Applications LLC. It's where I constantly thrive to hone my abilities to
                         create a seamless user experience.
                     </p>
                     <p>
@@ -23,6 +23,8 @@ export default function About() {
                         <a href='mailto:pcchiu96@gmail.com'>
                             <i class='fa fa-envelope-o' aria-hidden='true'></i> Email
                         </a>
+                        <br />
+                        <a href='tel:7788580576'>Phone: 778-858-0576</a>
                     </address>
                 </section>
             </div>
