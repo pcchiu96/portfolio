@@ -19,6 +19,18 @@
     text-align: center;
     padding: 15px 0;
     font-size: 1em;
+    color: inherit;
+    display: block;
+    margin: auto;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+
+.view-my-work:hover {
+    color: black;
+    background-color: white;
 }
 
 /* When stretched above phone and tablet devices */

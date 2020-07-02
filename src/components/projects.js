@@ -3,7 +3,7 @@ import "../css/Projects.css";
 
 export default function Projects() {
     return (
-        <div className='projects-background'>
+        <div className='projects-background' id='projects-pointer'>
             <div className='projects-wrapper'>
                 <div className='projects'>
                     <section>
@@ -16,10 +16,10 @@ export default function Projects() {
                             <button className='b-view'>View Code</button>
                         </a>
                         <p>A website I designed for my artist friend Fruit Melody.</p>
-                        <p class='language-icons'>
-                            <i class='devicon-html5-plain colored' title='HTML5'></i>
-                            <i class='devicon-css3-plain colored' title='CSS3'></i>
-                            <i class='devicon-javascript-plain colored' title='JavaScript'></i>
+                        <p className='language-icons'>
+                            <i className='devicon-html5-plain colored' title='HTML5'></i>
+                            <i className='devicon-css3-plain colored' title='CSS3'></i>
+                            <i className='devicon-javascript-plain colored' title='JavaScript'></i>
                         </p>
                     </section>
 
@@ -33,11 +33,11 @@ export default function Projects() {
                             <button className='b-view'>View Code</button>
                         </a>
                         <p>A 2-player board game that I built to practice coding in ReactJS.</p>
-                        <p class='language-icons'>
-                            <i class='devicon-react-original colored' title='React'></i>
-                            <i class='devicon-javascript-plain colored' title='JavaScript'></i>
-                            <i class='devicon-html5-plain colored' title='HTML5'></i>
-                            <i class='devicon-css3-plain colored' title='CSS3'></i>
+                        <p className='language-icons'>
+                            <i className='devicon-react-original colored' title='React'></i>
+                            <i className='devicon-javascript-plain colored' title='JavaScript'></i>
+                            <i className='devicon-html5-plain colored' title='HTML5'></i>
+                            <i className='devicon-css3-plain colored' title='CSS3'></i>
                         </p>
                     </section>
 
@@ -48,9 +48,9 @@ export default function Projects() {
                             <button className='b-view'>View Code</button>
                         </a>
                         <p>A discord werewolf game that is similar to mafia but with a fun twist.</p>
-                        <p class='language-icons'>
-                            <i class='devicon-nodejs-plain colored' title='NodeJS'></i>
-                            <i class='devicon-javascript-plain colored' title='JavaScript'></i>
+                        <p className='language-icons'>
+                            <i className='devicon-nodejs-plain colored' title='NodeJS'></i>
+                            <i className='devicon-javascript-plain colored' title='JavaScript'></i>
                         </p>
                     </section>
 
@@ -61,9 +61,9 @@ export default function Projects() {
                             <button className='b-view'>View Code</button>
                         </a>
                         <p>A discord emoji tracker that my discord group used weekly to find the popularity of each custom emoji.</p>
-                        <p class='language-icons'>
-                            <i class='devicon-nodejs-plain colored' title='NodeJS'></i>
-                            <i class='devicon-javascript-plain colored' title='JavaScript'></i>
+                        <p className='language-icons'>
+                            <i className='devicon-nodejs-plain colored' title='NodeJS'></i>
+                            <i className='devicon-javascript-plain colored' title='JavaScript'></i>
                         </p>
                     </section>
 
@@ -80,10 +80,10 @@ export default function Projects() {
                             This is just a fun little project I made to see if I can replicate what Snowden said about passwords under 8 characters can be solved under a second but
                             with numbers.
                         </p>
-                        <p class='language-icons'>
-                            <i class='devicon-javascript-plain colored' title='JavaScript'></i>
-                            <i class='devicon-html5-plain colored' title='HTML5'></i>
-                            <i class='devicon-css3-plain colored' title='CSS3'></i>
+                        <p className='language-icons'>
+                            <i className='devicon-javascript-plain colored' title='JavaScript'></i>
+                            <i className='devicon-html5-plain colored' title='HTML5'></i>
+                            <i className='devicon-css3-plain colored' title='CSS3'></i>
                         </p>
                     </section>
 
@@ -94,12 +94,12 @@ export default function Projects() {
                             <button className='b-view'>View Project</button>
                         </a>
                         <p>A work in progress website I designed and built for Tiger Applications LLC.</p>
-                        <p class='language-icons'>
-                            <i class='devicon-php-plain colored' title='PHP'></i>
-                            <i class='devicon-javascript-plain colored' title='JavaScript'></i>
-                            <i class='devicon-html5-plain colored' title='HTML5'></i>
-                            <i class='devicon-less-plain-wordmark colored' title='LESS'></i>
-                            <i class='devicon-css3-plain colored' title='CSS3'></i>
+                        <p className='language-icons'>
+                            <i className='devicon-php-plain colored' title='PHP'></i>
+                            <i className='devicon-javascript-plain colored' title='JavaScript'></i>
+                            <i className='devicon-html5-plain colored' title='HTML5'></i>
+                            <i className='devicon-less-plain-wordmark colored' title='LESS'></i>
+                            <i className='devicon-css3-plain colored' title='CSS3'></i>
                         </p>
                     </section>
                     {/* 
@@ -107,12 +107,12 @@ export default function Projects() {
                         <i className='project-icon fa fa-wrench' aria-hidden='true'></i>
                         <h3>StrataPLBm</h3>
                         <p>A client-server application that provide simple management of condo/apartment requests from residents.</p>
-                        <p class='language-icons'>
-                            <i class='devicon-php-plain colored' title='PHP'></i>
-                            <i class='devicon-javascript-plain colored' title='JavaScript'></i>
-                            <i class='devicon-html5-plain colored' title='HTML5'></i>
-                            <i class='devicon-less-plain-wordmark colored' title='LESS'></i>
-                            <i class='devicon-css3-plain colored' title='CSS3'></i>
+                        <p className='language-icons'>
+                            <i className='devicon-php-plain colored' title='PHP'></i>
+                            <i className='devicon-javascript-plain colored' title='JavaScript'></i>
+                            <i className='devicon-html5-plain colored' title='HTML5'></i>
+                            <i className='devicon-less-plain-wordmark colored' title='LESS'></i>
+                            <i className='devicon-css3-plain colored' title='CSS3'></i>
                         </p>
                     </section> */}
 
@@ -123,12 +123,12 @@ export default function Projects() {
                         <a href='https://github.com/pcchiu96/portfolio'>
                             <button className='b-view'>View Code</button>
                         </a>
-                        <p class='language-icons'>
-                            <i class='devicon-react-original colored' title='React'></i>
-                            <i class='devicon-javascript-plain colored' title='JavaScript'></i>
-                            <i class='devicon-html5-plain colored' title='HTML5'></i>
-                            <i class='devicon-css3-plain colored' title='CSS3'></i>
-                            <i class='devicon-github-plain colored' title='GitHub'></i>
+                        <p className='language-icons'>
+                            <i className='devicon-react-original colored' title='React'></i>
+                            <i className='devicon-javascript-plain colored' title='JavaScript'></i>
+                            <i className='devicon-html5-plain colored' title='HTML5'></i>
+                            <i className='devicon-css3-plain colored' title='CSS3'></i>
+                            <i className='devicon-github-plain colored' title='GitHub'></i>
                         </p>
                     </section>
                 </div>

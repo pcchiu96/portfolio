@@ -10,10 +10,9 @@ export default function Introduction() {
                     <p>Full Stack Developer in Tiger Applications LLC</p>
                 </div>
 
-                {/* make this clickable */}
-                <div className='view-my-work'>
+                <a href='#projects-pointer' className='view-my-work'>
                     View my work <i className='fa fa-angle-down'></i>
-                </div>
+                </a>
             </div>
         </div>
     );
