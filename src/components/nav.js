@@ -31,8 +31,8 @@ export default function Nav() {
                         <a href={resumeLink}>Resume</a>
                         <Link to='/about'>About</Link>
                     </li>
-                    <li className='nav-hamburger'>
-                        <i className={hamburgerIcon} onClick={showSideBarToggle}></i>
+                    <li className='nav-hamburger' onClick={showSideBarToggle}>
+                        <i className={hamburgerIcon}></i>
                     </li>
                 </ul>
 

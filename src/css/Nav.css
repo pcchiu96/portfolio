@@ -42,6 +42,7 @@ nav ul li {
 
 .nav-hamburger {
     font-size: 1.5em;
+    padding: 3px 10px;
     cursor: pointer;
 }
 
