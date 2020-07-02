@@ -60,7 +60,7 @@ export default function Projects() {
                         <a href='https://github.com/pcchiu96/discord-emoji-tracker'>
                             <button className='b-view'>View Code</button>
                         </a>
-                        <p>A discord emoji tracker that my discord group uses weekly to find the popularity of each custom emoji.</p>
+                        <p>A discord emoji tracker that my discord group used weekly to find the popularity of each custom emoji.</p>
                         <p class='language-icons'>
                             <i class='devicon-nodejs-plain colored' title='NodeJS'></i>
                             <i class='devicon-javascript-plain colored' title='JavaScript'></i>
