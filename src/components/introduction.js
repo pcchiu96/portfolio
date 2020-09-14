@@ -7,7 +7,12 @@ export default function Introduction() {
             <div className='introduction'>
                 <div className='intro-sentence'>
                     <h1>I am a passionate software developer who likes to make impactful apps.</h1>
-                    <p>Web Developer in Stigan Media</p>
+                    <p>
+                        Web Developer in{" "}
+                        <a className='company-name' href='https://www.stiganmedia.com/'>
+                            Stigan Media
+                        </a>
+                    </p>
                 </div>
 
                 <a href='#projects-pointer' className='view-my-work'>

@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Projects.css";
+import fruitmelody from "../images/fm_favicon.png";
 
 export default function Projects() {
     return (
@@ -7,7 +8,9 @@ export default function Projects() {
             <div className='projects-wrapper'>
                 <div className='projects'>
                     <section>
-                        <i className='project-icon fa fa-circle-o' aria-hidden='true'></i>
+                        <i className='project-icon fa fruitmelody' aria-hidden='true'>
+                            <img src={fruitmelody}></img>
+                        </i>
                         <h3>Fruit Melody</h3>
                         <a href='https://pcchiu96.github.io/fruitmelody'>
                             <button className='b-view'>View Project</button>

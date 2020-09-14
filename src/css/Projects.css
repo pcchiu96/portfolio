@@ -71,6 +71,15 @@
     font-size: 1.5em;
 }
 
+.fruitmelody {
+    background-color: transparent;
+}
+
+.fruitmelody img {
+    height: 80px;
+    padding-top: 25px;
+}
+
 /* When stretched above phone and tablet devices */
 @media (min-width: 768px) {
     .projects-wrapper {

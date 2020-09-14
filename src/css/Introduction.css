@@ -33,6 +33,10 @@
     background-color: white;
 }
 
+.company-name {
+    color: white;
+}
+
 /* When stretched above phone and tablet devices */
 @media (min-width: 768px) {
     .introduction {
