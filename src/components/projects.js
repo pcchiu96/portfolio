@@ -12,14 +12,12 @@ export default function Projects() {
                             <img src={fruitmelody}></img>
                         </i>
                         <h3>Fruit Melody</h3>
-                        <a href='https://pcchiu96.github.io/fruitmelody'>
+                        <a href='https://www.fruit-melody.com'>
                             <button className='b-view'>View Project</button>
-                        </a>
-                        <a href='https://github.com/pcchiu96/fruitmelody'>
-                            <button className='b-view'>View Code</button>
                         </a>
                         <p>A website I designed for my artist friend Fruit Melody.</p>
                         <p className='language-icons'>
+                            <i class='devicon-php-plain' title='PHP'></i>
                             <i className='devicon-html5-plain colored' title='HTML5'></i>
                             <i className='devicon-css3-plain colored' title='CSS3'></i>
                             <i className='devicon-javascript-plain colored' title='JavaScript'></i>
