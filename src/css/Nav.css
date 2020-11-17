@@ -22,11 +22,30 @@ nav ul li {
 
 .nav-title {
     font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-title a {
+    color: white;
+}
+
+.nav-title a:first-child {
+    padding: 3px 12px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.nav-title a + a {
+    margin-left: 8px;
+}
+
+.nav-title a:first-child:hover {
+    color: black;
+    background-color: white;
 }
 
 .nav-title i {
-    margin-left: 10px;
-    padding: 5px;
+    padding: 5px 8px;
     border-radius: 10px;
     transition: 0.3s;
 }
@@ -34,10 +53,6 @@ nav ul li {
 .nav-title i:hover {
     color: black;
     background-color: white;
-}
-
-.nav-title a {
-    color: white;
 }
 
 .nav-hamburger {

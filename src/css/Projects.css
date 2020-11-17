@@ -5,7 +5,7 @@
 .projects-wrapper {
     width: 90%;
     margin: 0 auto;
-    padding: 3em 0 6em 0;
+    padding: 4em 0 4em 0;
     color: #646464;
 }
 
@@ -21,10 +21,22 @@
 .projects section {
     padding: 3em 2em 2em 2em;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects .project-description {
+    text-align: left;
+    max-width: 360px;
+    margin: 20px auto;
 }
 
 .projects section:nth-child(n + 2) {
     border-top: solid 2px #e5e5e5;
+}
+
+.projects section i {
+    margin: 0 auto;
 }
 
 .project-icon {
@@ -38,37 +50,32 @@
     border-radius: 100%;
     /* pushes the icon down to middle */
     line-height: 3em;
-    margin: 0 0 1em 0;
 }
 
-.b-view {
+.b-view-project,
+.b-view-code {
+    display: inline-block;
     background-color: transparent;
-    border: 2px black solid;
+    border: 1.5px black solid;
+    border-radius: 4px;
     padding: 10px 0;
-    margin: 4px;
-    border-radius: 5px;
+    margin: 4px auto;
     transition: 0.3s;
     font-size: 1em;
     width: 10em;
     cursor: pointer;
-}
-
-.b-view:hover {
-    background-color: #242a2e;
-    color: white;
-}
-
-.b-view:disabled {
-    border: none;
     color: #646464;
 }
 
-.b-view:disabled:hover {
-    background-color: transparent;
+.b-view-project:hover,
+.b-view-code:hover {
+    background-color: #27496d;
+    color: white;
 }
 
 .language-icons {
     font-size: 1.5em;
+    margin-top: auto;
 }
 
 .fruitmelody {

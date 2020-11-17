@@ -1,18 +1,24 @@
 .introduction-wrapper {
     width: 100%;
     margin: auto;
-    padding-bottom: 4em;
 }
 
 .introduction {
     width: 80%;
     margin: auto;
-    padding: 2em 0;
     color: white;
+    padding: 4em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .intro-sentence {
     padding: 2em 0 4em 0;
+}
+
+.intro-sentence h1 {
+    font-size: 3em;
 }
 
 .view-my-work {
