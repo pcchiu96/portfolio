@@ -1,51 +1,51 @@
 .introduction-wrapper {
-    width: 100%;
-    margin: auto;
+  width: 100%;
+  margin: auto;
 }
 
 .introduction {
-    width: 80%;
-    margin: auto;
-    color: white;
-    padding: 0 0 4em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  color: white;
+  padding: 0 0 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .intro-sentence {
-    padding: 2em 0 4em 0;
+  padding: 2em 0 4em 0;
 }
 
 .intro-sentence h1 {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 .view-my-work {
-    text-align: center;
-    padding: 15px 0;
-    font-size: 1em;
-    color: inherit;
-    display: block;
-    margin: auto;
-    width: 200px;
-    border-radius: 5px;
-    border: 2px solid white;
-    transition: 0.3s;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1em;
+  color: inherit;
+  display: block;
+  margin: auto;
+  width: 200px;
+  border-radius: 5px;
+  border: 2px solid white;
+  transition: 0.3s;
 }
 
 .view-my-work:hover {
-    color: black;
-    background-color: white;
+  color: black;
+  background-color: white;
 }
 
 .company-name {
-    color: white;
+  color: white;
 }
 
 /* When stretched above phone and tablet devices */
 @media (min-width: 768px) {
-    .introduction {
-        width: 80%;
-    }
+  .introduction {
+    width: 80%;
+  }
 }
