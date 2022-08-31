@@ -6,12 +6,9 @@ export default function Introduction() {
     <div className="introduction-wrapper">
       <div className="introduction">
         <div className="intro-sentence">
-          <h1>
-            I am a passionate software developer who likes to make impactful
-            apps.
-          </h1>
+          <h1>I am a passionate software developer who likes to make impactful apps.</h1>
           <p>
-            Web Developer in{" "}
+            Web Developer at{" "}
             <a className="company-name" href="https://www.stiganmedia.com/">
               Stigan Media
             </a>
