@@ -1,7 +1,6 @@
 import Nav from "./Nav";
-import Introduction from "./Introduction";
-import Projects from "./Projects";
+import Home from "./Home";
 import About from "./About";
 import Footer from "./Footer";
 
-export { Nav, Introduction, Projects, About, Footer };
+export { Nav, Home, About, Footer };
